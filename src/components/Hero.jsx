@@ -28,7 +28,11 @@ const Hero = () => {
       className="min-h-screen flex py-10 md:flex-row flex-col items-center"
     >
       <div className="flex-1 flex items-center justify-center h-full">
-        <img src={my2} alt="" className="md:w-2/3 h-auto object-cover" />
+        <img
+          src={my2}
+          alt=""
+          className="md:w-3/5 h-auto object-cover rounded-md"
+        />
       </div>
       <div className="flex-1">
         <div className="md:text-left text-center">

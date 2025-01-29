@@ -4,7 +4,7 @@ const Skills = () => {
   const skills = [
     {
       name: "HTML",
-      logo: "bowling-ball-outline",
+      logo: "logo-html5",
       level: "Intermediate",
       count: 70,
     },
@@ -17,8 +17,8 @@ const Skills = () => {
     {
       name: "JAVASCRIPT",
       logo: "logo-javascript",
-      level: "Intermediate",
-      count: 70,
+      level: "Beginner",
+      count: 40,
     },
     {
       name: "REACT",
@@ -27,20 +27,20 @@ const Skills = () => {
       count: 60,
     },
     {
-      name: "ANGULAR",
-      logo: "logo-angular",
-      level: "Beginner",
-      count: 50,
+      name: "AI/ML",
+      logo: "analytics-outline",
+      level: "Intermediate",
+      count: 70,
     },
     {
-      name: "FIREBASE",
-      logo: "logo-firebase",
-      level: "Beginner",
-      count: 40,
+      name: "DSA",
+      logo: "book-outline",
+      level: "Intermediate",
+      count: 80,
     },
     {
-      name: "NODE JS",
-      logo: "logo-nodejs",
+      name: "SQL",
+      logo: "cube-outline",
       level: "Beginner",
       count: 40,
     },

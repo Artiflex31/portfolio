@@ -1,9 +1,10 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import projectOne from "../assets/images/project-1.png";
-import projectTwo from "../assets/images/project-2.jpg";
-// import projectThree from "../assets/images/project-3.jfif";
-// import projectFour from "../assets/images/project-4.jfif";
+import projectTwo from "../assets/images/project-2.png";
+import projectThree from "../assets/images/project-3.png";
+import projectFour from "../assets/images/project-4.png";
+import projectFive from "../assets/images/project-5.png";
 
 import { Pagination, Autoplay } from "swiper";
 import "swiper/css";
@@ -33,14 +34,14 @@ const Project = () => {
       img: projectFour,
       name: "FurryTails",
       github_link: "https://artiflex31.github.io/FurryTails.client/",
-      live_link: "",
+      // live_link: "",
     },
     {
-      img: projectSix,
+      img: projectFive,
       name: "ArtBook",
       github_link:
         "https://artiflex31.github.io/The-Artbook-learning-Bootstrap/",
-      live_link: "https://artiflex31.github.io/The-Artbook-learning-Bootstrap/",
+      //live_link: "https://artiflex31.github.io/The-Artbook-learning-Bootstrap/",
     },
   ];
   return (
@@ -84,13 +85,13 @@ const Project = () => {
                     >
                       Github
                     </a>
-                    <a
+                    {/* <a
                       href={project_info.live_link}
                       target="_blank"
                       className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
                     >
                       Live
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </SwiperSlide>
