@@ -35,7 +35,7 @@ const Education = () => {
             key={index}
             className="bg-gray-200 rounded-lg shadow-md p-6 flex flex-col items-start mb-4"
           >
-            <ion-icon name={edu.logo} class="text-primary text-xl mr-2" />
+            {/* <ion-icon name={edu.logo} class="text-primary text-xl mr-2" /> */}
             <div className="text-lg font-medium mb-2 text-gray-700">
               {edu.degree}
             </div>
