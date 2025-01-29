@@ -3,19 +3,17 @@ import my2 from "../assets/images/my2.jpg";
 import Type from "./Type";
 
 const socialMediaLinks = [
-  "https://www.instagram.com/_aaaryaan__/",
-  "https://github.com/aryyan0701",
-  "https://www.linkedin.com/in/aryan-kadam-568083204/",
-  "https://twitter.com/aaryyan_",
+  "https://www.instagram.com/bajpai_puru?igsh=MWluMXQ3cWVoaXUxeg%3D%3D",
+  "https://github.com/Artiflex31",
+  "https://www.linkedin.com/in/poornendu-bajpai-392a1322a/",
+  "https://x.com/BajpaiPoornendu",
 ];
-
-
 
 const Hero = () => {
   const contactRef = useRef(null);
 
   const scrollToContact = () => {
-    contactRef.current.scrollIntoView({ behavior: 'smooth' });
+    contactRef.current.scrollIntoView({ behavior: "smooth" });
   };
 
   const social_media = [
@@ -39,12 +37,14 @@ const Hero = () => {
               Hello!
               <br />
             </span>
-            My Name is <span>Aryan Kadam</span>
+            My Name is <span>Poornendu Bajpai</span>
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
-                <Type/>
-              </h4>
-          <button className="btn-primary mt-8" onClick={scrollToContact}>Connect with Me</button>
+            <Type />
+          </h4>
+          <button className="btn-primary mt-8" onClick={scrollToContact}>
+            Connect with Me
+          </button>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
             {social_media?.map((icon, index) => (
               <a
